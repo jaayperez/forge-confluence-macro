@@ -1,0 +1,15 @@
+modules:
+  macro:
+    - key: hello-world-app-hello-world
+      function: main
+      title: Forge app for Justin
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/0e4908d3-e583-43f7-bddc-2ae4d611be16
+  name: hello-world-app
+permissions:
+  scopes:
+    - read:confluence-content.summary
